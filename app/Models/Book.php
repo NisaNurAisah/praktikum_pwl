@@ -13,8 +13,8 @@ class Book extends Model
         'year',
         'publisher',
         'city',
-        'cover',
-        'bookshelf_id'
+        'bookshelf_id',
+        'cover'
     ];
 
     public function bookshelf(): BelongsTo
