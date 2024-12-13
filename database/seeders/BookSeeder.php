@@ -22,5 +22,14 @@ class BookSeeder extends Seeder
             "cover" => "public/cover.jpg",
             "bookshelf_id" => 5
         ]);
+        Book::create([
+            "title" => "Aku Tak Membenci Hujan",
+            "author" => "Sri Puji Hartini",
+            "year" => 2023,
+            "publisher" => "Akad x Squad",
+            "city" => "Depok",
+            "cover" => "public/novel.jpg",
+            "bookshelf_id" => 1
+        ]);
     }
 }
